@@ -1,0 +1,27 @@
+.navbar-dark {
+    background-color: rgba($color: $primary-color, $alpha: 0.8);
+    display: flex !important;
+    justify-content: space-between !important;
+
+    .navbar-brand {
+       position: absolute;
+       left: 1%;
+       color: $color-four !important;
+    }
+  }
+
+ 
+  
+  .link-container {
+        // margin-left: 150%; 
+        position: relative;
+        left: 280%;
+        display: flex;
+        justify-content: flex-end;
+    
+
+        .nav-link {
+            color: $color-four !important;
+        }
+    }
+  
