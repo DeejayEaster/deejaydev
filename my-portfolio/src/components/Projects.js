@@ -58,12 +58,14 @@ class Projects extends Component {
       <div className="projects-app section">
         <h2 className="projects-title">Projects</h2>
         <button
+          className="function-button"
           onClick={() => this.prevProperty()}
           disabled={property.index === 0}
         >
           Prev
         </button>
         <button
+          className="function-button"
           onClick={() => this.nextProperty()}
           disabled={property.index === data.properties.length - 1}
         >

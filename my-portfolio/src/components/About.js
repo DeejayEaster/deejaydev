@@ -4,7 +4,7 @@ import AboutSkills from "./AboutSkills";
 const About = () => {
   return (
     <section className="about section">
-      <h2 className="title">ABOUT</h2>
+      <h2 className="title">About</h2>
       <div className="qualities">
         <div className="quality">
           <i className="fas fa-rocket fa-4x"></i>
