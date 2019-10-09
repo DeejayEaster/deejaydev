@@ -14,8 +14,8 @@ export default function App() {
       <Nav />
       <About />
       <Projects />
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }
