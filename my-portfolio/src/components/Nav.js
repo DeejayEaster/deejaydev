@@ -12,6 +12,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -38,16 +39,65 @@ export default class Navigation extends React.Component {
             <Nav className="ml-auto" navbar>
               <div className="link-container">
                 <NavItem>
-                  <NavLink href="/components/">About</NavLink>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="home"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Home
+                    </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">Projects</NavLink>
+                  <NavLink>
+                    <Link
+                      onClick={() => {
+                        document
+                          .querySelector(".qualities")
+                          .classList.toggle("animated", "fadeIn");
+                      }}
+                      activeClass="active"
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                    >
+                      About
+                    </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">Resume</NavLink>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="projects"
+                      spy={true}
+                      smooth={true}
+                      offset={20}
+                      duration={500}
+                    >
+                      Projects
+                    </Link>
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">Contact</NavLink>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
+                  </NavLink>
                 </NavItem>
               </div>
             </Nav>

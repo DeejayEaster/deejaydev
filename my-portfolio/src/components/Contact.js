@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <>
+      <div id="contact">
         <h2 className="contact-title">Contact</h2>
         <p>Have a question or interested in partnering? Drop me a message!</p>
         <form
@@ -28,7 +28,7 @@ export default class Contact extends React.Component {
           {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
-      </>
+      </div>
     );
   }
 

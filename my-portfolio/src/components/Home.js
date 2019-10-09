@@ -4,7 +4,7 @@ import { Jumbotron, Button } from "reactstrap";
 
 const Home = () => {
   return (
-    <div className="home section">
+    <div className="home section" id="home">
       <div className="layer">
         <Jumbotron>
           <h1 className="display-3"> Deejay Easter</h1>

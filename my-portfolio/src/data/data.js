@@ -9,11 +9,10 @@ const data = {
       _id: "React Calculator",
       index: 0,
       picture: CalcImg,
-      code:
-        "https://github.com/build-week-use-my-tech-stuff-umts/umts-frontend",
+      code: "https://github.com/DeejayEaster/my-react-calculator",
       url: "https://deejay-react-calc.netlify.com/",
       info:
-        "Rentech is a project that was built with the objective of creating a classifieds marketplace that allows users to loan or sell their unwanted tech items. My role in this project was front-end archetect. It's was my job to build out the components and style the application, as well as handle state managment.",
+        "This is a functioning calculator built in react and styled with SASS. ",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x"
     },
@@ -46,16 +45,15 @@ const data = {
       _id: "Github Dashboard",
       index: 3,
       picture: gitImg,
-      code:
-        "https://github.com/build-week-use-my-tech-stuff-umts/umts-frontend",
-      url: "https://deejay-react-calc.netlify.com/",
+      code: "https://github.com/DeejayEaster/Sprint-Challenge--User-Interface",
+      url: "http://www.deejay.dev/github-usercard/",
       info:
-        "Rentech is a project that was built with the objective of creating a classifieds marketplace that allows users to loan or sell their unwanted tech items. My role in this project was front-end archetect. It's was my job to build out the components and style the application, as well as handle state managment.",
+        "Currently this project used the github api to render data about me and my followers. I am currently working on a complete github dashboard version of this application.",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x"
     },
     {
-      _id: "Projects5",
+      _id: "Hacker News Clone",
       index: 4,
       picture:
         "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property01.jpg",
@@ -63,9 +61,9 @@ const data = {
         "https://github.com/build-week-use-my-tech-stuff-umts/umts-frontend",
       url: "https://deejay-react-calc.netlify.com/",
       info:
-        "Rentech is a project that was built with the objective of creating a classifieds marketplace that allows users to loan or sell their unwanted tech items. My role in this project was front-end archetect. It's was my job to build out the components and style the application, as well as handle state managment.",
+        "This is an attempt to bring the legendary hacker-news web application into the modern world ear of the internet. My role in building out this application was creating the Java and Node backend, which included a crud User's News feature.",
       tech1: "fab fa-react fa-2x",
-      tech2: "fab fa-sass fa-2x",
+      tech2: "fab fa-java fa-2x",
       tech3: "fab fa-node fa-2x"
     }
   ]

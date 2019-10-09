@@ -3,9 +3,9 @@ import AboutSkills from "./AboutSkills";
 
 const About = () => {
   return (
-    <section className="about section">
+    <section className="about section" id="about">
       <h2 className="title">About</h2>
-      <div className="qualities">
+      <div className="qualities animated fadeIn slow">
         <div className="quality">
           <i className="fas fa-rocket fa-4x"></i>
           <h3>Dynamic Software</h3>
@@ -34,7 +34,7 @@ const About = () => {
           </p>
         </div>
         <div className="quality">
-          <i class="fas fa-mobile fa-4x"></i>
+          <i className="fas fa-mobile fa-4x"></i>
           <h3>Responsive Design</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero

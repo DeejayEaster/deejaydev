@@ -10,14 +10,19 @@
   }
 }
 
-.link-container {
-  // margin-left: 150%;
-  position: relative;
-  left: 280%;
-  display: flex;
-  justify-content: flex-end;
+.navbar-collapse {
+  display: flex !important;
 
-  .nav-link {
-    color: $color-four !important;
+  justify-content: flex-end !important;
+
+  .link-container {
+    // margin-left: 150%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+
+    .nav-link {
+      color: $color-four !important;
+    }
   }
 }

@@ -52,10 +52,20 @@ class Projects extends Component {
     });
   };
 
+  liveClicked() {
+    const url = data.properties.url;
+    window.open(url, "_blank");
+  }
+
+  codeClicked() {
+    const git = data.properties.code;
+    window.open(git, "_blank");
+  }
+
   render() {
     const { properties, property } = this.state;
     return (
-      <div className="projects-app section">
+      <div className="projects-app section" id="projects">
         <h2 className="projects-title">Projects</h2>
         <button
           className="function-button"
@@ -88,6 +98,14 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="btn-container">
+          <a href={property.url} target="_blank" className="card-btn">
+            <i class="fas fa-eye"></i> View Code
+          </a>
+          <a href={property.code} target="_blank" className="card-btn">
+            <i className="fab fa-github"></i> View Code
+          </a>
         </div>
       </div>
     );
