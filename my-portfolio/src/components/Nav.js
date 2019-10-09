@@ -55,11 +55,6 @@ export default class Navigation extends React.Component {
                 <NavItem>
                   <NavLink>
                     <Link
-                      onClick={() => {
-                        document
-                          .querySelector(".qualities")
-                          .classList.toggle("animated", "fadeIn");
-                      }}
                       activeClass="active"
                       to="about"
                       spy={true}

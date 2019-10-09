@@ -19,14 +19,14 @@ const Footer = () => {
             <i className="fab fa-github fa-3x"></i>
           </a>
           <a
-            href="https://github.com/DeejayEaster"
+            href="https://www.facebook.com/donald.easter.397"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-facebook fa-3x"></i>
           </a>
           <a
-            href="https://github.com/DeejayEaster"
+            href="https://www.instagram.com/deejayisawesome/"
             target="_blank"
             rel="noopener noreferrer"
           >

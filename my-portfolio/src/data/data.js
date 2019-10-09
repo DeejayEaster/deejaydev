@@ -2,6 +2,7 @@ import RenImg from "../img/Rentech.png";
 import DroomImg from "../img/droom.png";
 import CalcImg from "../img/myCalc.png";
 import gitImg from "../img/gitImg.png";
+import hackImg from "../img/hackernews.png";
 
 const data = {
   properties: [
@@ -42,8 +43,20 @@ const data = {
       tech3: "fab fa-node fa-2x"
     },
     {
-      _id: "Github Dashboard",
+      _id: "Hacker News Clone",
       index: 3,
+      picture: hackImg,
+      code: "https://github.com/orgs/React-Hacker-News-Clone/dashboard",
+      url: "https://modern-hackernews.netlify.com/login",
+      info:
+        "This is an attempt to bring the legendary hacker-news web application into the modern world ear of the internet. My role in building out this application was creating the Java and Node backend, which included a crud User's News feature.",
+      tech1: "fab fa-react fa-2x",
+      tech2: "fab fa-java fa-2x",
+      tech3: "fab fa-node fa-2x"
+    },
+    {
+      _id: "Github Dashboard",
+      index: 4,
       picture: gitImg,
       code: "https://github.com/DeejayEaster/Sprint-Challenge--User-Interface",
       url: "http://www.deejay.dev/github-usercard/",
@@ -51,20 +64,6 @@ const data = {
         "Currently this project used the github api to render data about me and my followers. I am currently working on a complete github dashboard version of this application.",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x"
-    },
-    {
-      _id: "Hacker News Clone",
-      index: 4,
-      picture:
-        "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property01.jpg",
-      code:
-        "https://github.com/build-week-use-my-tech-stuff-umts/umts-frontend",
-      url: "https://deejay-react-calc.netlify.com/",
-      info:
-        "This is an attempt to bring the legendary hacker-news web application into the modern world ear of the internet. My role in building out this application was creating the Java and Node backend, which included a crud User's News feature.",
-      tech1: "fab fa-react fa-2x",
-      tech2: "fab fa-java fa-2x",
-      tech3: "fab fa-node fa-2x"
     }
   ]
 };

@@ -23,6 +23,10 @@
 
     .nav-link {
       color: $color-four !important;
+
+      a {
+        cursor: pointer;
+      }
     }
   }
 }
