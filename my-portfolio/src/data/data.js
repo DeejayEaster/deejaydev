@@ -13,7 +13,7 @@ const data = {
       code: "https://github.com/DeejayEaster/my-react-calculator",
       url: "https://deejay-react-calc.netlify.com/",
       info:
-        "This is a functioning calculator built in react and styled with SASS. ",
+        "This is a functioning calculator built with react and styled with SASS. ",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x"
     },
@@ -24,7 +24,7 @@ const data = {
       code: "https://github.com/lambda-bw-droom/droom-landing",
       url: "https://lambda-bw-droom.github.io/droom-landing/",
       info:
-        "Droom is an application designed to xreate a new way for employers and employess to interface. Think tinder meets indeed. My role was to design the marketing landing page for the site.",
+        "Droom is an application designed to create a new way for employers and employees to break the ice and start a conversation. Think Tinder meets Indeed. My role was to design the marketing landing page for the site. The app, however, is not yet complete.",
       tech1: "fab fa-html5 fa-2x",
       tech2: "fab fa-sass fa-2x",
       tech3: "fab fa-js-square fa-2x"
@@ -37,7 +37,7 @@ const data = {
         "https://github.com/build-week-use-my-tech-stuff-umts/umts-frontend",
       url: "https://rentech.netlify.com/login",
       info:
-        "Rentech is a project that was built with the objective of creating a classifieds marketplace that allows users to loan or sell their unwanted tech items. My role in this project was front-end archetect. It's was my job to build out the components and style the application, as well as handle state managment.",
+        "Rentech is a project that was built to create a classifieds marketplace that allows users to loan or sell their unwanted tech items. My role in this project was Front-End architect. It was my job to build out the components, implement the functionality, and style the application. I also handled state management with Redux.",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x",
       tech3: "fab fa-node fa-2x"
@@ -49,7 +49,7 @@ const data = {
       code: "https://github.com/orgs/React-Hacker-News-Clone/dashboard",
       url: "https://modern-hackernews.netlify.com/login",
       info:
-        "This is an attempt to bring the legendary hacker-news web application into the modern world ear of the internet. My role in building out this application was creating the Java and Node backend, which included a crud User's News feature.",
+        "This is an attempt to bring the legendary hacker-news web application into the modern era of the internet. My role in building out this application was creating the Java and Node back-end, which included a CRUD feature for a user to contribute their own news stories.",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-java fa-2x",
       tech3: "fab fa-node fa-2x"
@@ -61,7 +61,7 @@ const data = {
       code: "https://github.com/DeejayEaster/Sprint-Challenge--User-Interface",
       url: "http://www.deejay.dev/github-usercard/",
       info:
-        "Currently this project used the github api to render data about me and my followers. I am currently working on a complete github dashboard version of this application.",
+        "This project uses the GitHub API to render data about me and my followers. I am currently working on a complete GitHub dashboard version of this application that will display contribution statistics and a deeper insight into my Git projects.",
       tech1: "fab fa-react fa-2x",
       tech2: "fab fa-sass fa-2x"
     }

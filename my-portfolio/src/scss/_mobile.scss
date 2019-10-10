@@ -1,0 +1,174 @@
+@include mediaMd {
+  .link-container {
+    width: 250px;
+  }
+
+  .display-3 {
+    font-size: 1000% !important;
+  }
+
+  .console-text {
+    font-size: 1.5rem;
+    margin-bottom: 12rem !important;
+  }
+
+  .btn-primary {
+    transform: scale(1.5);
+    margin-top: 8rem !important;
+    // position: absolute;
+    // left: 42.5%;
+    // top: 50%;
+
+    &:hover {
+      transform: scale(1.6);
+    }
+  }
+
+  .about {
+    .qualities {
+      p {
+        display: none;
+      }
+    }
+
+    .skills {
+      display: none;
+    }
+
+    .about-btm {
+      padding-top: 2rem !important;
+    }
+
+    .bio {
+      display: flex;
+      flex-direction: row !important;
+
+      width: 100% !important;
+
+      .portrait {
+        transform: scale(0.75);
+        float: left;
+      }
+
+      .myBio {
+        width: 250px;
+        padding-top: 2rem;
+        margin-top: 4rem;
+      }
+    }
+  }
+}
+
+@include mediaSm {
+  .link-container {
+    float: right !important;
+  }
+
+  .about {
+    height: 140vh !important;
+
+    .qualities {
+      padding: 0 !important;
+      h3 {
+        font-size: 1.2rem !important;
+      }
+    }
+
+    .bio {
+      flex-direction: column !important;
+    }
+
+    .myBio {
+      width: 400px !important;
+      padding: 0 !important;
+    }
+    .portrait {
+      border-radius: 15px !important;
+      transform: scale(1.1) !important;
+      margin-top: 1rem !important;
+    }
+  }
+
+  .section-sm {
+    padding: 0 !important;
+  }
+
+  a.navbar-brand {
+    display: none;
+  }
+
+  .icons {
+    display: flex !important;
+    justify-content: space-around !important;
+
+    .fab {
+      margin: 0 1rem;
+    }
+  }
+}
+
+@include mediaMd {
+  .about {
+    height: 110vh !important;
+
+    .qualities {
+      padding-top: 1rem !important;
+      h3 {
+        font-size: 1.2rem !important;
+      }
+    }
+
+    .bio {
+      flex-direction: column !important;
+    }
+
+    .myBio {
+      width: 400px !important;
+      padding: 0 !important;
+      margin-top: 1.5rem !important;
+    }
+    .portrait {
+      border-radius: 15px !important;
+      transform: scale(1.1) !important;
+      margin-top: 1rem !important;
+    }
+  }
+
+  .contact {
+    height: 57vh !important;
+  }
+
+  .icons {
+    display: flex !important;
+    justify-content: space-around !important;
+
+    .fab {
+      margin: 0 1rem;
+    }
+  }
+}
+
+@include mediaLg {
+  .navbar {
+    background: red;
+  }
+
+  .link-container {
+    width: 100%;
+  }
+
+  .about {
+    .qualities {
+      padding-top: 2rem !important;
+    }
+
+    .about-btm {
+      padding-top: 2rem !important;
+    }
+
+    .myBio {
+      width: 250%;
+      padding-top: 2rem;
+    }
+  }
+}

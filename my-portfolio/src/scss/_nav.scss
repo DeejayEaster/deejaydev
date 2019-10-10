@@ -10,16 +10,19 @@
   }
 }
 
-.navbar-collapse {
+.navbar {
   display: flex !important;
-
-  justify-content: flex-end !important;
+  justify-content: space-between !important;
+}
+.navbar-nav {
+  display: flex !important;
+  justify-content: space-between;
+  width: 400px;
 
   .link-container {
     // margin-left: 150%;
-    align-self: flex-end;
-    display: flex;
-    justify-content: flex-end;
+    display: flex !important;
+    text-align: right;
 
     .nav-link {
       color: $color-four !important;

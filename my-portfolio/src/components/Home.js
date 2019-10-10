@@ -11,10 +11,10 @@ const Home = () => {
           <h1 className="display-3"> Deejay Easter</h1>
           <Typing speed={60} className="console-container">
             <span className="console-text">
-              Web developer and overall rad dude.
+              Web developer, designer and software engineer.
             </span>
             <Typing.Delay ms={1000} />
-            <Typing.Backspace count={35} />
+            <Typing.Backspace count={46} />
             <span className="console-text">Let's build something awesome.</span>
           </Typing>{" "}
           <hr className="my-2" />
@@ -27,7 +27,7 @@ const Home = () => {
               offset={20}
               duration={500}
             >
-              <Button color="primary">View Projects</Button>
+              <Button className="btn-primary">View Projects</Button>
             </Link>
           </p>
         </Jumbotron>

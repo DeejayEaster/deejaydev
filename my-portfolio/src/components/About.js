@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="quality">
             <i className="fas fa-tachometer-alt fa-4x"></i>
-            <h3>Fast Load Speed</h3>
+            <h3>Fast Loading</h3>
             <p>Projects are optimized for a fast and fluid user expeireance.</p>
           </div>
           <div className="quality">
@@ -42,14 +42,16 @@ const About = () => {
       <div className="about-btm">
         <div className="bio">
           <div className="portrait"></div>
-          <p>
-            I am a Full-Stack developer based out of Atlanta, Georgia. I have a
-            passion for UI, animations, and developing intuitive, memorable user
-            experiences.{" "}
-            <strong>
-              I can’t wait to get started bringing your next vision to life.
-            </strong>
-          </p>
+          <div className="myBio">
+            <p>
+              I am a Full-Stack developer based out of Atlanta, Georgia. I have
+              a passion for UI, animations, and developing intuitive, memorable
+              user experiences.{" "}
+              <strong>
+                I can’t wait to get started bringing your next vision to life.
+              </strong>
+            </p>
+          </div>
         </div>
 
         <div className="skills">
