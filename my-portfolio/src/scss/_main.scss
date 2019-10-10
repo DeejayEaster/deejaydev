@@ -86,7 +86,7 @@ header {
   }
 
   .projects-app {
-    padding-top: 10rem;
+    padding-top: 5rem;
     background: $primary-color;
     border-top: 20px solid black;
     border-bottom: 20px solid black;
@@ -113,7 +113,7 @@ header {
       marginfont-family: Tahoma, sans-serif !important;
       background-color: rgba($secondary-color, $alpha: 0.5);
       border: 1px solid $color-five;
-      margin: 1rem 2rem;
+      margin: 1rem 6rem;
       border-radius: 100px;
       transition: all 100ms ease-in-out;
       border: 1px solid black;
@@ -205,7 +205,7 @@ header {
         transform: scale(0.8);
         box-shadow: none;
         background-color: white;
-        transition: height 200ms linear, scale 500ms linear;
+        transition: all 300ms linear, scale 500ms linear;
         .icon-container {
           display: flex;
           background: $color-four;
@@ -287,7 +287,7 @@ header {
   }
 
   .about {
-    padding-top: 8rem;
+    padding-top: 5rem;
     height: 120vh;
 
     .title {
