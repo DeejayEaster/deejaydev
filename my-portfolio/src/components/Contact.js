@@ -15,32 +15,34 @@ export default class Contact extends React.Component {
     const { status } = this.state;
     return (
       <div id="contact">
-        <h2 className="contact-title">Contact</h2>
-        <p>Have a question or interested in partnering? Drop me a message!</p>
-        <form
-          className="section-sm contact"
-          onSubmit={this.submitForm}
-          action="https://formspree.io/mzngvdam"
-          method="POST"
-        >
-          <ScrollAnimation animateIn="bounceInLeft" className="flex-col">
-            <label>Email:</label>
-            <input type="email" name="email" />
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="bounceInRight" className="flex-col">
-            <label>Message:</label>
-            <input
-              type="text"
-              name="message"
-              maxlength="300"
-              tabindex="100"
-              type="text"
-              id="message"
-            />
-          </ScrollAnimation>
-          {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        </form>
+        <div className="layer">
+          <h2 className="contact-title">Contact</h2>
+          <p>Have a question or interested in partnering? Drop me a message!</p>
+          <form
+            className="section-sm contact"
+            onSubmit={this.submitForm}
+            action="https://formspree.io/mzngvdam"
+            method="POST"
+          >
+            <ScrollAnimation animateIn="bounceInLeft" className="flex-col">
+              <label>Email:</label>
+              <input type="email" name="email" />
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="bounceInRight" className="flex-col">
+              <label>Message:</label>
+              <input
+                type="text"
+                name="message"
+                maxlength="300"
+                tabindex="100"
+                type="text"
+                id="message"
+              />
+            </ScrollAnimation>
+            {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
+        </div>
       </div>
     );
   }
