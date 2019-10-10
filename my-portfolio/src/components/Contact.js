@@ -1,4 +1,6 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
+import { Button } from "reactstrap";
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -21,11 +23,22 @@ export default class Contact extends React.Component {
           action="https://formspree.io/mzngvdam"
           method="POST"
         >
-          <label>Email:</label>
-          <input type="email" name="email" />
-          <label>Message:</label>
-          <input type="text" name="message" id="message" />
-          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+          <ScrollAnimation animateIn="bounceInLeft" className="flex-col">
+            <label>Email:</label>
+            <input type="email" name="email" />
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="bounceInRight" className="flex-col">
+            <label>Message:</label>
+            <input
+              type="text"
+              name="message"
+              maxlength="300"
+              tabindex="100"
+              type="text"
+              id="message"
+            />
+          </ScrollAnimation>
+          {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
       </div>

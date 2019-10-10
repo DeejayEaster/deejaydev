@@ -1,12 +1,12 @@
 import React from "react";
-
+import ScrollAnimation from "react-animate-on-scroll";
 const AboutSkills = props => {
   return (
     <>
       <div className="skill-item">
         <h3>HTML5</h3>
         <div className="progress-bar">
-          <span className="filler html"></span>
+          <span className="filler html" data-aos="anim1"></span>
         </div>
       </div>
 
