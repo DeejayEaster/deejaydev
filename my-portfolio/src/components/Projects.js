@@ -27,6 +27,7 @@
 import React, { Component } from "react";
 import Card from "./Card";
 import data from "../data/data";
+import { Button } from "reactstrap";
 
 // class component
 class Projects extends Component {
@@ -67,20 +68,20 @@ class Projects extends Component {
     return (
       <div className="projects-app section" id="projects">
         <h2 className="projects-title">Projects</h2>
-        <button
+        <Button
           className="function-button"
           onClick={() => this.prevProperty()}
           disabled={property.index === 0}
         >
           Prev
-        </button>
-        <button
+        </Button>
+        <Button
           className="function-button"
           onClick={() => this.nextProperty()}
           disabled={property.index === data.properties.length - 1}
         >
           Next
-        </button>
+        </Button>
 
         <div className="page">
           <div className="col">

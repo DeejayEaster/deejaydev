@@ -12,15 +12,15 @@ const About = () => {
             <i className="fas fa-rocket fa-4x"></i>
             <h3>Dynamic Software</h3>
             <p>
-              I build beautiful and dynamic websites that will breath new life
-              into a static project.
+              I build beautiful and dynamic web applications that feel more
+              alive than static websites.
             </p>
           </div>
           <div className="quality">
             <i className="fas fa-meteor fa-4x"></i>
             <h3>Full-Stack</h3>
             <p>
-              Back-end, Fron-end, and Design. No matter what your needs. I have
+              Back-end, Front-end, and Design. No matter what your needs, I have
               you covered.
             </p>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
             <i className="fas fa-mobile fa-4x"></i>
             <h3>Responsive Design</h3>
             <p>
-              All of my designs are designed with mobile, tablet, and desktop
+              I design all of my designs with mobile, tablet, and desktop
               platforms in mind.
             </p>
           </div>
@@ -44,10 +44,10 @@ const About = () => {
           <div className="portrait"></div>
           <p>
             I am a Full-Stack developer based out of Atlanta, Georgia. I have a
-            passion for UI, animations, and developing intutive, memorable user
-            expireances.{" "}
+            passion for UI, animations, and developing intuitive, memorable user
+            experiences.{" "}
             <strong>
-              I can't wait to get started bringing your next vision to life.
+              I can’t wait to get started bringing your next vision to life.
             </strong>
           </p>
         </div>
